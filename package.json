@@ -1,0 +1,26 @@
+{
+  "name": "pure-spa",
+  "version": "1.0.2",
+  "description": "Lit based SPA router container",
+  "module": "src/js/pure-spa.js",
+  "scripts": {
+    "dev": "node esbuild-dev.js",
+    "build": "node esbuild-prd.js&tsc"
+  },
+  "dependencies": {
+    "esprima": "^4.0.1",
+    "estraverse": "^5.3.0",
+    "lit": "^3.1.4",
+    "typescript": "^5.4.5",
+    "urlpattern-polyfill": "^6.0.2"
+  },
+  "devDependencies": {
+    "esbuild": "^0.23.0",
+    "esbuild-plugin-sass": "^1.0.1",
+    "eslint": "^9.2.0",
+    "eslint-plugin-lit": "^1.12.0",
+    "eslint-plugin-wc": "^2.1.0",
+    "glob": "^10.3.15",
+    "globals": "^15.2.0"
+  }
+}
