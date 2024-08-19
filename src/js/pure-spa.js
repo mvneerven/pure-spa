@@ -606,11 +606,7 @@ export class PureSPA extends LitElement {
 
     return html`${until(
       this.content,
-      html` <div class="fill skeleton">
-        <app-shimmer class="title"></app-shimmer>
-        <app-shimmer class="image"></app-shimmer>
-        <app-shimmer></app-shimmer>
-      </div>`
+      this.loadingPage
     )}`;
   }
 
