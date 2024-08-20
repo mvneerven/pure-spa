@@ -1,6 +1,6 @@
 {
   "name": "pure-spa",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Lit based SPA router container",
   "module": "src/js/pure-spa.js",
   "repository": {

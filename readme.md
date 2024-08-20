@@ -8,10 +8,11 @@ A routing Lit container (Light DOM) _Base Class_ for modern Web Component-based 
 
 ## Main Ingredients
 
-- [Lit](https://lit.dev/) Element
-- [URLPattern](https://developer.mozilla.org/en-US/docs/Web/API/URLPattern) to match routes and pass route data.
-- [View Transitions](https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API) to switch between routes.
-- [Navigatiom:navigate Event](https://developer.mozilla.org/en-US/docs/Web/API/Navigation/navigate_event) to intercept user navigation.
+
+- A (Light DOM) [Lit](https://lit.dev/) Element base class to base your apps on.
+- Using the [URLPattern](https://developer.mozilla.org/en-US/docs/Web/API/URLPattern) class to match routes and pass dynamic route data.
+- Using [View Transitions](https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API) when switching between routes.
+- [Navigation:navigate Event](https://developer.mozilla.org/en-US/docs/Web/API/Navigation/navigate_event) to intercept user navigation.
 
 > Because PureSPA uses relatively new Browser APIs, *polyfills* are provided for functionality that is not yet available in some browsers, like Safari and Firefox.
 

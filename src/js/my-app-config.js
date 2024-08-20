@@ -5,10 +5,10 @@ export const config = {
   routes: {
     "/": {
       name: "Home",
-      run: PageHome,
+      run: PageHome
     },
     "/about": {
-      run: PageAbout,
+      run: PageAbout
     },
-  },
+  }
 };
